@@ -28,7 +28,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7f0ef', end
 }
 
 header {
-	border-bottom: 3px solid #424242;
+	border-bottom: 3px dotted #424242;
 	padding-bottom: 20px;
 }
 
@@ -40,7 +40,7 @@ section {
 }
 
 footer {
-	border-top: 3px solid #424242;
+	border-top: 3px dotted #424242;
 	padding-top: 20px;
 }
 
@@ -67,11 +67,13 @@ h1, h2, h3 {
 h1 {
 	font-size:150%;
 	text-transform:uppercase;
+
 }
 
 header h1 {
 	font-size:300%;
 	margin-bottom:.1em;
+	color: #34113e;
 }
 
 p {
